@@ -14,7 +14,6 @@ body, html {
     background-color: #b3cccc;
     height: 100%;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
 
  }
@@ -28,8 +27,7 @@ body, html {
    width: 60%;
    height: 80%;
    margin: auto;
-   /* margin-left: -250px; */
-   /* margin-top: 20%; */
+   padding-bottom: 10px;
 
 }
 
