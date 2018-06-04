@@ -1,0 +1,70 @@
+body, html {
+    font-color: #000000;
+    font-size: 1.5vw;
+    text-align: center;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.bg {
+    background-image: url("background.jpg");
+    background-color: #b3cccc;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ }
+
+.formBackground {
+
+   background-color: rgba(255,255,255,0.6);
+   /* position: absolute; */
+   top: 25%;
+   left: 50%;
+   width: 60%;
+   height: 80%;
+   margin: auto;
+   /* margin-left: -250px; */
+   /* margin-top: 20%; */
+
+}
+
+h1{
+  font-family: 'Vampiro One', cursive;
+  font-size: 6vw;
+
+}
+
+.topmargin {
+  padding: 3%;
+}
+
+.bottommargin {
+  padding: 3%;
+}
+
+.bottommargin2 {
+  padding: 4%;
+}
+
+.form-control {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {border-radius: 2px; padding: 6px 40px; background-color: #ffcccc;}
+
+.button2 {border-radius: 2px; padding: 6px 40px; background-color: #ffcccc;}
+
+.buttonPDF {border-radius: 2px; padding: 6px 40px; background-color: #b3ffd9;}
+
+
+@media only screen and (max-width : 320px) {
+font-size: 20pt;
+}

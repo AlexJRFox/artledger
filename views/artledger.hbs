@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Artledger2D</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <!-- Bootstrap CSS -->
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+       <link rel="stylesheet" type="text/css" href="/static/mystyle.css">
+       <link href="https://fonts.googleapis.com/css?family=Rosario|Vampiro+One|News+Cycle" rel="stylesheet">
+    </head>
+    <body>
+    <div style="margin:0 auto" class="bg">
+    <div class="topmargin"></div>
+    <div class="formBackground">
+    <div><h1>ARTLEDGER</h1></div>
+    <div id="questionnaire">
+  <form class="form-group" id="artForm">
+    <label for="typeOfWorkInput"><h5>Type of Work</h5></label>
+    <div id="type" class="form-group">
+      <input type="radio" id="painting" name="workType">
+      <label for="painting">Painting</label>
+      <input type="radio" id="drawing" name="workType">
+      <label for="drawing">Drawing</label>
+      <input type="radio" id="print" name="workType">
+      <label for="print">Print</label>
+    </div>
+  <label for="timeSpentInput"><h5>Time Spent</h5></label>
+  <div id="commission" class="form-group">
+    <input id="numberDays" type="number">Days
+  </div>
+   <label for="sizeOfWorkInput"><h5>Size of Work</h5></label>
+   <div id="size" class="form-group">
+    <input type="radio" id="small" name="workSize">
+    <label for="small">Small</label>
+    <input type="radio" id="medium" name="workSize">
+    <label for="medium">Medium</label>
+    <input type="radio" id="large" name="workSize">
+    <label for="large">Large</label>
+  </div>
+  <label for="expOfWorkInput"><h5>Experience</h5></label>
+   <div id="experience" class="form-group">
+    <input type="radio" id="student" name="expLevel">
+    <label for="student">Student</label>
+    <input type="radio" id="emerging" name="expLevel">
+    <label for="emerging">Emerging</label>
+    <input type="radio" id="mid-career" name="expLevel">
+    <label for="mid-career">Mid-Career</label>
+    <!-- <label>Total: $ <input type="text" name="total" class="num" size="6" value="0" readonly="readonly" /></label> -->
+  </div>
+<button id="subButton" class="button" type="submit">Total</button>
+  </form>
+  <div class="bottommargin2"></div>
+        <div id="arttype"></div>
+        <div id="order"></div>
+        <div> <label>Total: £ <input type="text" name="total" class="num" size="6" value="0" readonly="readonly" id="total"/></label></div>
+        <div><button id="invoiceButton" class="button2" type="submit">Prepare invoice</button></div>
+      </div>
+    </div>
+  <div class="bottommargin"></div>
+  </div>
+        <script src="/static/client.js"></script>
+    </body>
+</html>
