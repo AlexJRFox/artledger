@@ -2,7 +2,7 @@ body, html {
     font-color: #000000;
     font-size: 1.5vw;
     text-align: center;
-    min-height: 100%;
+    min-height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,7 +12,7 @@ body, html {
 .bg {
     background-image: url("background.jpg");
     background-color: #b3cccc;
-    height: 100%;
+    min-height: 100vh;
     background-position: center;
     background-size: cover;
 
